@@ -27,7 +27,7 @@
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">iHamas</a>
+      <a class="navbar-brand js-scroll" href="#page-top">Ahamed Hamas</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -55,13 +55,13 @@
   <!--/ Nav End /-->
 
   <!--/ Intro Skew Star /-->
-  <div id="home" class="intro route bg-image" style="background-image: url(); background-color: black;">
+  <div id="home" class="intro route bg-image" style="background-color: black;">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
           <h1 class="intro-title mb-4">I am Ahamed Hamas</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">#Student,#FrontendDeveloper,#Gamer,#Traveler,#CameraPerson</span><strong class="text-slider"></strong></p>
+          <p class="intro-subtitle"><span class="text-slider-items">#Student,#ToBeDeveloper,#Gamer,#Traveler,#CameraPerson</span><strong class="text-slider"></strong></p>
         </div>
       </div>
     </div>
@@ -83,15 +83,29 @@
                   </div>
                   <div class="col-sm-6 col-md-7">
                     <div class="about-info">
-                      <p><span class="title-s">Name: </span> <span>Ahamed Hamas</span></p>
-                      <p><span class="title-s">Profile: </span> <span>Student</span></p>
-                      <p><span class="title-s">Email: </span> <span>farzanhamaas@gmail.com</span></p>
-                      <p><span class="title-s">Phone: </span> <span>+94 77 5747397</span></p>
+                      <table >
+                        <tr>
+                          <td class="title-s">Name: </td>
+                          <td>Ahamed Hamas</td>
+                        </tr>
+                        <tr>
+                          <td class="title-s">Profile: </td>
+                          <td>Student</td>
+                        </tr>
+                        <tr>
+                          <td class="title-s">Email: </td>
+                          <td>farzanhamaas@gmail.com</td>
+                        </tr>
+                        <tr>
+                          <td class="title-s">Phone Number: </td>
+                          <td>+94 77 574 7397</td>
+                        </tr>
+                      </table>
                     </div>
                   </div>
                 </div>
                 <div class="skill-mf">
-                  <p class="title-s">Skill</p>
+                  <p class="title-s">Skills</p>
                   <span>HTML</span> <span class="pull-right">85%</span>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
@@ -102,14 +116,19 @@
                     <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
-                  <span>QuickBooks</span> <span class="pull-right">60%</span>
+                  <span>JavaScript</span> <span class="pull-right">25%</span>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
-                  <span>Accountancy Knowledge</span> <span class="pull-right">90%</span>
+                  <span>QuickBooks</span> <span class="pull-right">70%</span>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Accountancy</span> <span class="pull-right">75%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
                 </div>
@@ -163,9 +182,8 @@
                 I joined the Media club of my school, The Interact Club, The Gavel club and so on.
               </p>
               <p class="lead">
-                I never really had an aim in my life or a dream job. I was always looking for what I really want. Atlast I decided that I really 
-                want nothing for now. I started to work at an Auditing firm soon after my A/ls since I'm a commerce student. Soon after a month i realized
-                that Accountancy and Auditing is not my thing. At that time I realized that I'm not a person to analyse data, I'm a person who likes to 
+                I never really had an aim in my life or a dream job. I was always looking for what I really want. Finally, I came to the conclusion that I actually don't desire anything right now. I was able to land in an auditing firm shortly after finishing my Advanced level exams as I studied in the commerce stream. Though i was skilled
+                enough to do the job, I did not enjoy it. I found out that Accountancy and Auditing is not my thing. At that time I realized that I'm not a person to analyse data, I'm a person who likes to 
                 build something. I've also always wanted to start my own business but in order to do that I'll need a capital. So I started searching for 
                 a job in which i can build something and get paid good as well. This is how i ended up in persuing Software Engineering. 
               </p>
@@ -198,11 +216,11 @@
                     </h5>
                   </div>
                   <div>
-                      <form action="" method="post" role="form" class="contactForm" id="contactForm">
+                      <form action="" method="post" role="form" class="contactForm" id="contactForm" onsubmit="return validateForm()">
                       <div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage"></div>
                       <div class="row">
-                        <div class="col-md-12 mb-3">
+                        <div class="col-md-12 mb-3">  
                           <div class="form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validation"></div>
@@ -276,6 +294,7 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/typed/typed.min.js"></script>
+ 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
